@@ -1,0 +1,41 @@
+/* CSS DOCUMENT - Main Style Sheet */
+
+* { margin: 0px auto; padding: 0px; }
+
+html, body { background-color: #FFF; color: #000; font: normal 10pt Verdana, Helvetica, Arial, sans-serif; }
+
+/* Default Elements */
+a { color: #DEB200; text-decoration: none; }
+a:hover {  color: #FFCC00; }
+
+/* Default Form Elements */
+input[type=text] { padding: 5px 3px; }
+input[type=text]:focus { outline: none; }
+input[type=text].tiny { width: 50px; }
+input[type=text].small { width: 75px; }
+input[type=text].medium { width: 150px; }
+input[type=text].large { width: 200px; }
+input[type=text].extralarge { width: 500px; }
+
+body #topNav { width: 100%; height: 40px; margin-bottom: 10px; background: url("/imgs/top-nav-background.png") repeat-x; }
+body #topNav #contentArea { width: 900px; height: 30px; padding: 5px 0px; }
+body #topNav #login { width: 656px; color:#FFF; font-weight: bold; float: left; padding-top: 8px; } 
+body #topNav #search { width: 244px; height: 30px; float: left; }
+body #topNav #search #searchInputDiv { width: 200px; height: 30px; margin-right: 12px; float: left; }
+body #topNav #search #searchBtnDiv { width: 30px; height: 30px; cursor: pointer; float: left; }
+body #wrapper { width:900px; min-height: 300px; }
+body #wrapper #header { width: 900px; height: 150px; }
+body #wrapper #header a { border: none; }
+body #wrapper #quote { width: 900px; height: 22px; margin: 10px 0px; background: url("/imgs/quote.png") no-repeat; }
+body #wrapper #content { width: 900px; min-height: 300px; }
+body #wrapper #content #definitions { width: 600px; float: left; }
+body #wrapper #content #submission { width: 300px; float: left; }
+body #wrapper #content .entry { width: 600px; padding: 5px; margin-bottom: 10px; }
+body #wrapper #content .entry .postInfo { width: 150px; padding-top: 34px; float: left; }
+body #wrapper #content .entry .postInfo .date { font: bold 13pt "Century Gothic", Helvetica, Verdana, Arial, sans-serif; color: #555; }
+body #wrapper #content .entry .postInfo .submittedBy { font-size: 8pt; color: #777; }
+body #wrapper #content .entry .wordInfo { width: 450px; float: left; }
+body #wrapper #content .entry .wordInfo .wordHeading { margin-bottom: 5px; }
+body #wrapper #content .entry .wordInfo .wordHeading .word { font-size: 16pt; font-weight: bold; color: #DEB200; }
+body #wrapper #content .entry .wordInfo .wordHeading .pronunciation { color: #777; }
+body #wrapper #content .entry .wordInfo .wordHeading .type { color: #777; font-style: italic; }
