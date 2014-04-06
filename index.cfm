@@ -31,7 +31,7 @@
 		</div>
 
 		<!--- Start Quote --->
-		<div id="quote">&nbsp;</div>
+		<!--- <div id="quote">&nbsp;</div> --->
 
 		<!--- Start Content --->
 		<div id="content">
@@ -40,7 +40,7 @@
 
 				<div class="entry">
 					<div class="postInfo">
-						<div class="date">Apr. 4, 2014</div>
+						<div class="date">2</div>
 						<div class="submittedBy">by Scott Davey</div>
 					</div>
 					<div class="wordInfo">
@@ -62,8 +62,20 @@
 
 				<div id="submissionHeader">Submit a word...</div>
 
-				<div id="wordInput">
-					<input type="" class="" name="" id="" value="">
+				<div id="submissionForm">
+					<div class="row short">
+					    <label for="">Word:</label>
+					    <div class="field">
+					        <input type="text" class="mediumlarge" name="" id="" value="">
+					    </div>
+					</div>
+
+					<div class="row short">
+					    <label for="">Definition 1:</label>
+					    <div class="field">
+					        <input type="text" class="mediumlarge" name="" id="" value="">
+					    </div>
+					</div>
 				</div>
 
 			</div>
