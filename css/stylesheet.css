@@ -9,7 +9,7 @@ a { color: #DEB200; text-decoration: none; }
 a:hover {  color: #FFCC00; }
 
 /* Default Form Elements */
-input[type=text] { padding: 5px 3px; }
+input[type=text] { height: 20px; padding: 5px 3px; border: 1px solid #999; }
 input[type=text]:focus { outline: none; }
 input[type=text].tiny { width: 50px; }
 input[type=text].small { width: 75px; }
@@ -25,29 +25,33 @@ input[type=text].extralarge { width: 500px; }
 .row div.field { float: left; }
 
 body #topNav { width: 100%; height: 40px; margin-bottom: 10px; background: url("/imgs/top-nav-background.png") repeat-x; }
-body #topNav #contentArea { width: 900px; height: 30px; padding: 5px 0px; }
+body #topNav #login { width: 900px; height: 20px; padding: 10px 0px; color: #FFF; font-weight: bold; text-align: right; }
+/*body #topNav #contentArea { width: 900px; height: 30px; padding: 5px 0px; }
 body #topNav #login { width: 656px; color:#FFF; font-weight: bold; float: left; padding-top: 8px; } 
 body #topNav #search { width: 244px; height: 30px; float: left; }
 body #topNav #search #searchInputDiv { width: 200px; height: 30px; margin-right: 12px; float: left; }
-body #topNav #search #searchBtnDiv { width: 30px; height: 30px; cursor: pointer; float: left; }
+body #topNav #search #searchBtnDiv { width: 30px; height: 30px; cursor: pointer; float: left; }*/
 body #wrapper { width:900px; min-height: 300px; }
-body #wrapper #header { width: 900px; height: 150px; margin-bottom: 20px; }
+body #wrapper #header { width: 900px; height: 150px; margin-bottom: 5px; }
 body #wrapper #header a { border: none; }
+body #wrapper #search { width: 244px; height: 30px; margin: 0px 0px 30px 668px; }
+body #wrapper #search #searchInputDiv { width: 200px; height: 30px; float: left; }
+body #wrapper #search #searchInputDiv input { border-right: none; }
+body #wrapper #search #searchBtnDiv { width: 30px; height: 30px; border: 1px solid #999; border-left: none; cursor: pointer; float: left; }
 body #wrapper #quote { width: 900px; height: 22px; margin: 10px 0px; background: url("/imgs/quote.png") no-repeat; }
 body #wrapper #content { width: 900px; min-height: 300px; }
-body #wrapper #content #definitions { width: 600px; float: left; }
-body #wrapper #content #submission { width: 278px; height: 400px; padding: 10px; background-color: #DEB200; border: 1px solid #BE9800; border-radius: 3px; float: left; }
-body #wrapper #content #submission #submissionHeader { font: bold 18pt "Century Gothic", "Trebuchet MS", Verdana; color: #8e7200; border-bottom: 1px solid #8e7200; text-shadow:1px 1px 0px #ffdc50; filter:DropShadow(Color=#ffdc50, OffX=1, OffY=1); /* FOR IE */ }
-body #wrapper #content #submission #submissionForm { padding-top: 10px; border-top: 1px solid #ffdc50; }
-body #wrapper #content .entry { width: 600px; padding: 5px; margin-bottom: 10px; }
-
-body #wrapper #content .entry .postInfo { width: 70px; padding-top: 34px; float: left; }
+body #wrapper #content #definitions { width: 580px; min-height: 200px; margin-right: 20px; float: left; }
+body #wrapper #content .entry { width: 570px; min-height: 200px; padding: 5px; margin-bottom: 10px; }
+body #wrapper #content .entry .postInfo { width: 70px; margin-top: 13px; float: left; }
 /*body #wrapper #content .entry .postInfo .date { font: bold 13pt "Century Gothic", Helvetica, Verdana, Arial, sans-serif; color: #555; }*/
-body #wrapper #content .entry .postInfo .date { width: 50px; height: 30px; margin: 0px; padding: 10px 0px; background-color: #DEB200; border-radius: 25px; text-align: center; color: #FFF; font: bold 18pt "Century Gothic", Arial, sans-serif; }
-body #wrapper #content .entry .postInfo .submittedBy { font-size: 8pt; color: #777; }
-
-body #wrapper #content .entry .wordInfo { width: 530px; float: left; }
+body #wrapper #content .entry .postInfo .days { width: 60px; height: 30px; margin: 0px 5px; padding: 15px 0px; background-color: #DEB200; border-radius: 5px; text-align: center; color: #FFF; font: bold 18pt "Century Gothic", Arial, sans-serif; }
+body #wrapper #content .entry .postInfo .daysAgo { font: bold 10pt "Century Gothic", Verdana, Arial, sans-serif; color: #DEB200; text-align: center; }
+body #wrapper #content .entry .wordInfo { width: 480px; padding: 10px; float: left; }
 body #wrapper #content .entry .wordInfo .wordHeading { margin-bottom: 5px; }
 body #wrapper #content .entry .wordInfo .wordHeading .word { font-size: 16pt; font-weight: bold; color: #DEB200; }
 body #wrapper #content .entry .wordInfo .wordHeading .pronunciation { color: #777; }
 body #wrapper #content .entry .wordInfo .wordHeading .type { color: #777; font-style: italic; }
+body #wrapper #content .entry .wordInfo .example { color: #555; margin-top: 7px; }
+body #wrapper #content #submission { width: 278px; height: 400px; padding: 10px; background-color: #DEB200; border: 1px solid #BE9800; border-radius: 3px; float: left; }
+body #wrapper #content #submission #submissionHeader { font: bold 18pt "Century Gothic", "Trebuchet MS", Verdana; color: #8e7200; border-bottom: 1px solid #8e7200; text-shadow:1px 1px 0px #ffdc50; filter:DropShadow(Color=#ffdc50, OffX=1, OffY=1); /* FOR IE */ }
+body #wrapper #content #submission #submissionForm { padding-top: 10px; border-top: 1px solid #ffdc50; }

@@ -19,6 +19,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.cfm",
+			"settings":
+			{
+				"buffer_size": 6162,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/stylesheet.css",
+			"settings":
+			{
+				"buffer_size": 4238,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -51,6 +67,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Scott Davey/Documents/Web Projects/VocabRebuttal/pages/index.cfm",
 		"/C/Users/Scott Davey/Documents/Web Projects/VocabRebuttal/index.cfm",
 		"/C/Users/Scott Davey/Documents/Web Projects/VocabRebuttal/css/stylesheet.css",
 		"/C/Users/Scott Davey/Documents/Web Projects/DaveysBabies/index.cfm",
@@ -63,7 +80,7 @@
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -77,6 +94,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"24px",
+			"by Scott Davey",
+			"submittedBy",
+			"date",
 			"2445px",
 			"#wrapper ",
 			" #",
@@ -101,8 +122,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.cfm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1209,
+								1209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ColdFusion/HTML+CFML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/stylesheet.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1852,
+								1852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -152,6 +231,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"styl",
+				"css\\stylesheet.css"
+			],
+			[
+				"index",
+				"index.cfm"
+			],
 			[
 				"style",
 				"css\\stylesheet.css"
