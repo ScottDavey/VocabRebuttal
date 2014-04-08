@@ -11,4 +11,16 @@ a { text-decoration: none; color: #DEB200; }
 body #top-nav { width: 100%; height: 40px; background: url("/imgs/top-nav-background.png") repeat-x; }
 body #top-nav #login { width: 1080px; height: 16px; padding: 12px 0px; color: #FFF; font-weight: bold; text-align: right; }
 body #content { width: 1080px; min-height: 1760px; }
-body #header { width: 980px; height: 50px; padding: 50px; }
+body #header { width: 1080px; height: 50px; padding: 50px 0px; }
+body #grid-wrapper { width: 1080px; min-height: 300px; }
+body #grid-wrapper .entry { width: 700px; min-height: 300px; margin: 0px 0px 40px 0px; background-color: #FFF; font: normal 12pt Garamond, "Times New Roman", serif; box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.7); }
+body #grid-wrapper .entry .top { width: 700px; height: 50px; background: url("/imgs/entry-background-top.png") no-repeat; }
+body #grid-wrapper .entry .top .date { width: 600px; height:20px; text-align: right; padding: 15px 50px; font-weight: bold; font-size: 17pt; color: rgba(10, 10, 10, 0.5); }
+body #grid-wrapper .entry .mid { width: 600px; min-height: 180px; padding: 10px 50px; background: url("/imgs/entry-background-mid.png") repeat-y; }
+body #grid-wrapper .entry .mid .heading { margin-bottom: 10px; }
+body #grid-wrapper .entry .mid .heading .word { font-weight: bold; font-size: 24pt; color: #3F3300; }
+body #grid-wrapper .entry .mid .heading .pronunciation { font-size: 14pt; color: #3C392C; }
+body #grid-wrapper .entry .mid .heading .type { font-style: italic; font-size: 14pt; color: #3C392C; }
+body #grid-wrapper .entry .mid .definitions { margin: 0px 0px 10px 20px; }
+body #grid-wrapper .entry .mid .origins { margin-bottom: 10px; }
+body #grid-wrapper .entry .bottom { width: 700px; height: 50px; background: url("/imgs/entry-background-bottom.png") no-repeat; }
