@@ -14,7 +14,16 @@
 	<div id="content">
 
 		<div id="header">
-			<a href="http://vocabrebuttal.local/library"><img src="/imgs/header-library-dropshadow.png"></a>
+			<div id="logo">
+				<a href="http://vocabrebuttal.local/library"><img src="/imgs/header-library-dropshadow.png"></a>
+			</div>
+			<div id="search">
+				<div id="searchInputDiv">
+					<input type="text" class="text" name="searchbar" id="searchbar" value="">
+				</div>
+				<div id="searchBtn">
+				</div>
+			</div>
 		</div>
 
 		<div id="grid-wrapper">

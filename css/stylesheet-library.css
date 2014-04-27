@@ -10,8 +10,14 @@ a { text-decoration: none; color: #DEB200; }
 /* MAIN */
 body #top-nav { width: 100%; height: 40px; background: url("/imgs/top-nav-background.png") repeat-x; }
 body #top-nav #login { width: 1080px; height: 16px; padding: 12px 0px; color: #FFF; font-weight: bold; text-align: right; }
-body #content { width: 1080px; min-height: 1760px; }
-body #header { width: 1080px; height: 50px; padding: 50px 0px; }
+body #content { width: 1080px; min-height: 1710px; }
+body #header { width: 1080px; height: 50px; padding:50px 0px; }
+body #header #logo { width: 800px; float: left; }
+body #header #search { width: 270px; height: 50px; float: left; }
+body #header #search #searchInputDiv { width: 220px; height: 50px; background: url("/imgs/book-search-220.png") no-repeat; float: left;  }
+body #header #search #searchbar { width: 175px; padding: 10px 20px; margin-top: 5px; background: none; border: none; font: normal 12pt Garamond, "Times New Roman", serif;  }
+body #header #search #searchbar:focus { outline: none; }
+body #header #search #searchBtn { width: 50px; height: 50px; margin: 5px 0px; background: url("/imgs/icons/magnifying-glass-50x50.png") no-repeat; cursor: pointer; float: left; }
 body #grid-wrapper { width: 1080px; min-height: 300px; }
 body #grid-wrapper .entry { width: 700px; min-height: 300px; margin: 0px 0px 40px 0px; background-color: #FFF; font: normal 12pt Garamond, "Times New Roman", serif; box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.7); }
 body #grid-wrapper .entry .top { width: 700px; height: 50px; background: url("/imgs/entry-background-top.png") no-repeat; }
